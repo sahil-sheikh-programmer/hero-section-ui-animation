@@ -1,18 +1,57 @@
-# React + Vite
+# Hero Section UI Animation – Frontend Coding Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
+This project was created as part of a frontend coding test to recreate a modern, visually appealing hero section inspired by the Skyriss website. The objective is to demonstrate UI/UX understanding, animation logic, responsiveness, and clean frontend implementation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Task 2 — Hero Section with Floating / Rotating Elements
 
-## React Compiler
+### Reference
+- Skyriss – Main Hero Section  
+  https://www.skyriss.com/en
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## ✨ Features Implemented
+- Bold hero headline with supporting sub-text
+- Subtle gradient background inspired by modern fintech websites
+- Central 3D-style card/logo with:
+  - Continuous rotation animation
+  - Hover-based floating interaction for depth effect
+- Multiple floating currency / coin icons surrounding the central element
+- Smooth entrance animations on page load
+- Interactive hover animations for enhanced user experience
+- Fully responsive layout across desktop, tablet, and mobile devices
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack Used
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **Framer Motion / Motion** (for animations and transitions)
+
+---
+
+## 🎯 Animation & Design Reasoning
+- The central card uses rotation and hover transforms to create a 3D visual effect
+- Floating elements use subtle oscillating animations to maintain a clean, modern feel
+- Animations are intentionally smooth and minimal to align with fintech UI standards
+- Framer Motion is used for performance-efficient animations and clean logic
+- Focus was placed on clarity, balance, and visual hierarchy
+
+---
+
+## 📱 Responsiveness
+- Layout adapts seamlessly to different screen sizes
+- Floating elements reposition and scale appropriately on smaller devices
+- Animations remain smooth and consistent across viewports
+
+---
+
+## 🚀 How to Run the Project Locally
+
+```bash
+npm install
+npm run dev
